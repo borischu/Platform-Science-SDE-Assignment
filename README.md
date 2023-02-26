@@ -49,7 +49,7 @@ total_score, assignments = assign_shipments(destinations, drivers)
 ```
 Assigned destinations to drivers to maximize total suitability score by using the [Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm).
 
-This is needed to solve a *weighted bipartite assignment problem* such as this one. 
+Because each destination to driver assignment carries different weights (suitability score) and you are trying to match for the maximum total suitability score, this is an example of a *weighted bipartite assignment problem*. 
 
 Steps implemented for this algorithm include: 
 1. Create a 2-D matrix of calculated suitability scores for all possible combinations of destinations to drivers
