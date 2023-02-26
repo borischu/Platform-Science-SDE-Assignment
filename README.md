@@ -1,7 +1,7 @@
 # Platform-Science-SDE-Assignment
 
 ## Setup and Execution
-1. Install open source libraries (**random_address** and **names**) by running:
+1. Install open source libraries ([**random_address**](https://pypi.org/project/random-address/) and [**names**](https://pypi.org/project/names/)) by running:
 ```console
 pip install -r requirements.txt
 ```
