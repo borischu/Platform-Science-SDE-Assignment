@@ -35,7 +35,7 @@ destination_i -> driver_j
 generate_data(20, 20)
 ```
 Utilize open source libraries, random_address and names, to generate random addresses and names to use for destinations and drivers.
-Generate a random number of destinations and drivers from 75% of given parameter up to given parameter. 
+Generate a random number of destinations and drivers from 75% of given parameter up to given parameter, in this example from 15 to 20 randomized names. 
 This is done to create a realistic scenario where there are likely to be an uneven number of destinations to drivers. 
 Output the generated data into csv files, **addresses.csv** and **drivers.csv**. 
 ```python
